@@ -13,7 +13,7 @@ body {
 }
 
 .one-third-width {
-    width: 33.33%;    
+    width: 20%;    
 }
 
 
@@ -31,16 +31,37 @@ p {
     font-size: 20px;
 }
 
+.para-right {
+    margin-right: 60px;
+    margin-bottom: 20px;    
+}
+
 .left-align-all {
     margin: 0px 200px;
     
 }
 
+/* All images styles here */
+
 img {
     width: 450px;
-    padding-right: 40px;
-    
+    padding-right: 40px;    
 }
+
+#shape {
+    width: 300px;
+    height: 300px;
+    margin-top: 40px;
+}
+
+
+#gls-coding {
+    margin-right: 30px;
+    margin-top: 0px;
+
+}
+
+/* All images styles above */
 
 .btn-style {
     border: none;
@@ -49,23 +70,56 @@ img {
     font-weight: 700;
     text-align: center;
     background-color: #ff5100;
-    padding: 10px 25px;    
+    padding: 15px 25px;    
 
 }
 
 .center-heading {
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
 }
 
-.three-box {
-    border: 20px 10px ;
+.limit-heading {
+    font-size: 40px;
+
+}
+
+div h3 {
+    font-size: 20px;
+}
+
+.box-sizing {
+    width: 400px;
+    height: 360px;
+    border-radius: 15px;
+    padding: 50px;
+    margin: 20px;
+}
+
+#box-1 {
+    background-color: #f5bb51;
+}
+
+#box-2 {
+    background-color: antiquewhite;
+
+}
+
+#box-3 {
+    background-color: aquamarine;
+
 }
 
 /* All span tags here */
 .orange-heading {
     color: #f5bb51;
 }
+
+#block-heading {
+    display: block;
+}
+
+/* All span tags above */
 
 /* Top section style starts here */
 
