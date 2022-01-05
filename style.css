@@ -1,4 +1,21 @@
 
+body {
+    font-family: 'Palanquin Dark',
+    sans-serif;
+}
+
+.flex-content {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+}
+
+img {
+    width: 400px;
+    margin-left: 50px;
+}
 
 /* Top section style starts here */
 
