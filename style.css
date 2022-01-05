@@ -12,6 +12,11 @@ body {
     width: 50%;
 }
 
+.one-third-width {
+    width: 33.33%;    
+}
+
+
 .top-heading {
     font-family: 'Abril Fatface',
     cursive;
@@ -33,6 +38,7 @@ p {
 
 img {
     width: 450px;
+    padding-right: 40px;
     
 }
 
@@ -47,10 +53,18 @@ img {
 
 }
 
-/* All span tags here */
-.color-heading {
-    color: #f5bb51;
+.center-heading {
+    font-size: 50px;
+    text-align: center;
+}
 
+.three-box {
+    border: 20px 10px ;
+}
+
+/* All span tags here */
+.orange-heading {
+    color: #f5bb51;
 }
 
 /* Top section style starts here */
