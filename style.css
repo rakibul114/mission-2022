@@ -37,6 +37,7 @@ body {
 
 .center-heading {
     text-align: center;
+    
 }
 
 .limit-heading {
@@ -119,20 +120,17 @@ img {
     padding-left: 70px;
     }
 
-
-.bg-img {
-    background-image: url(images/shapes/shape-1.png);
-    background-repeat: no-repeat;    
-    width: 500px;
-    height: 500px;
-}
-
 #project-img {
     width: 400px;
     margin-top: 30px;
-    margin-left: 30px;
+    margin-left: 30px;    
+}
 
-    
+#coding-img {
+    width: 400px;
+    margin-top: 30px;
+    float: right;
+    margin-right: 50px;
 }
 
 .app-showcase img {
@@ -164,15 +162,17 @@ img {
 
 /* Box style below this line */
 .box-sizing {
-    width: 400px;
-    height: 360px;
+    
+    width: 300px;
+    height: 260px;
     border-radius: 15px;
-    padding: 50px;
-    margin: 20px;
+    padding: 40px;
+    margin: 0px auto;
 }
 
 #box-1 {
     background-color:aliceblue;
+    margin-left: 100px;
 }
 #box-2 {
     background-color:rgb(235, 218, 211);
@@ -206,11 +206,24 @@ img {
 /* Section alignment below this line*/
 
 .my-mission {
-    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: 10px auto;
+    position: relative;
+    text-align:left;
+}
+
+.block {
+    height: 350px;
+    width: 350px;
+    margin: 10px;
 }
 
 .coding {
-    margin-bottom: 200px;
+    margin-bottom: 40px;
+    margin-top: 50px;
 }
 
 .app-showcase {
