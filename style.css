@@ -4,7 +4,7 @@ body {
     sans-serif;
 }
 
-/* All flex design below this line */
+/* Flex design below this line */
 
 .flex-content {
     display: flex;
@@ -18,7 +18,7 @@ body {
     width: 20%;    
 }
 
-/* All flex design above this line */
+/* Flex design above this line */
 
 
 
@@ -50,10 +50,14 @@ div h3 {
 }
 
 .app-heading {
-    font-size:50px;
+    font-size:40px;
+    text-indent: 2px;
+    
+
 }
 
 /* Heading style above this line */
+
 
 
 /* Paragraph styles below this line */
@@ -76,14 +80,14 @@ p {
     margin: 0px 70px;
 }
 
-.div-bg p {
+.app-div2 p {
     padding-right: 50px;
 }
 /* Paragraph styles above this line */
 
 
 
-/* All images styles below this line */
+/* Images styles below this line */
 
 img {
     width: 450px;
@@ -109,12 +113,15 @@ img {
 }
 
 .app-showcase img {
-    width: 500px;
+    width: 350px;
     padding: 40px 40px;
-    margin-left: 50px;
+    margin-top: 60px;
+    margin-left: 90px;
+    box-shadow: 5px 10px 18px #888888;
 }
 
-/* All images styles above this line */
+/* Images styles above this line */
+
 
 
 /* Button style below this line */
@@ -132,7 +139,7 @@ img {
 /* Button style above this line */
 
 
-/* All box style below this line */
+/* Box style below this line */
 .box-sizing {
     width: 400px;
     height: 360px;
@@ -151,7 +158,17 @@ img {
     background-color:rgb(248, 243, 216);
 }
 
-/* All box style below this line */
+#app-box {
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 40px;
+
+}
+
+/* Box style below this line */
 
 
 
@@ -181,11 +198,14 @@ img {
 /* Section alignment above this line*/
 
 
-/* Div element style below this line */
 
-.app-showcase div-bg {
-    background-color: #F0F8FF;
+/* Div element style below this line */
+.app-showcase app-div1 {
+    
 }
+
+
+
 /* Div element style above this line */
 
 
@@ -196,7 +216,7 @@ img {
     
 }
 
-#block-heading {
+.block-heading {
     display: block;
 }
 
