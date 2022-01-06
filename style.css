@@ -171,14 +171,14 @@ img {
 }
 
 #box-1 {
-    background-color:aliceblue;
-    margin-left: 100px;
+    background-color: #4f9da627;
+    
 }
 #box-2 {
-    background-color:rgb(235, 218, 211);
+    background-color: #ff595921;
 }
 #box-3 {
-    background-color:rgb(248, 243, 216);
+    background-color: #fff4d68e;
 }
 
 #app-box {
