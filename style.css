@@ -14,10 +14,6 @@ body {
     width: 50%;
 }
 
-.one-third-width {
-    width: 20%;    
-}
-
 /* Flex design above this line */
 
 
@@ -80,6 +76,7 @@ p {
 
 .left-align-all {
     margin: 0px 200px;
+    padding-top: 40px;
     
 }
 
@@ -133,16 +130,13 @@ img {
     margin-right: 100px;
 }
 
-.shape-padd {
-    margin-left: 40px;
-}
 
 .app-showcase img {
     width: 450px;
     padding: 20px 20px;
     margin-top: 50px;
     margin-left: 250px;
-    box-shadow: 5px 10px 18px #888888;
+    box-shadow: 5px 10px 18px #88888877;
 }
 
 /* Images styles above this line */
@@ -190,7 +184,7 @@ img {
     height: 400px;
     margin: 50px 250px 60px 80px;
     padding: 40px;
-    box-shadow: 5px 10px 18px #888888;
+    box-shadow: 5px 10px 18px #88888888;
 
 }
 
@@ -219,8 +213,8 @@ img {
 }
 
 .block {
-    height: 350px;
-    width: 350px;
+    height: 340px;
+    width: 340px;
     margin: 10px;
 }
 
@@ -238,7 +232,7 @@ img {
 }
 
 .app-showcase {
-    background-color: #F0F8FF;
+    background-color: #f0f8ff94;
     width: 100%;
     margin: 80px 0px;    
     padding-top: 30px;
