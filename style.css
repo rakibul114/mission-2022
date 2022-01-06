@@ -1,6 +1,6 @@
 
 body {
-    font-family: 'Palanquin Dark',
+    font-family: 'Poppins',
     sans-serif;
 }
 
@@ -25,18 +25,17 @@ body {
 /* Heading style below this line */
 
 .top-heading {
-    font-family: 'Abril Fatface',
+    font-family: 'Yeseva One',
     cursive;
-    font-size: 60px;
+    font-size: 40px;
     margin-top: 100px;
-    padding-left: 10px;
+    padding-left: 20px;
     border-left: 5px solid #ff5100;
-    border-radius: 5px;
-    line-height: 50px;    
+    border-radius: 4px;
+    line-height: 40px;    
 }
 
 .center-heading {
-    font-size: 40px;
     text-align: center;
 }
 
@@ -52,8 +51,13 @@ div h3 {
 .app-heading {
     font-size:40px;
     text-indent: 2px;
-    
+}
 
+.general-heading h1 {
+    font-family: 'Poppins',
+    sans-serif;
+    font-size: 50px;
+    font-weight: 600;
 }
 
 /* Heading style above this line */
@@ -94,6 +98,11 @@ img {
     padding-right: 40px;    
 }
 
+#cap-man {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
 #shape {
     width: 300px;
     height: 300px;
@@ -101,10 +110,17 @@ img {
 }
 
 
-#gls-coding {
-    margin-right: 30px;
+#gls-coding {    
     margin-top: 0px;
+    padding-left: 70px;
+    }
 
+
+.bg-img {
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;    
+    width: 500px;
+    height: 500px;
 }
 
 #project {
@@ -187,7 +203,7 @@ img {
 }
 
 .coding {
-    margin-bottom: 80px;
+    margin-bottom: 200px;
 }
 
 .app-showcase {
@@ -201,7 +217,7 @@ img {
 
 /* Div element style below this line */
 .app-showcase app-div1 {
-    
+
 }
 
 
@@ -224,12 +240,19 @@ img {
 
 
 footer {
+    font-family: 'Manrope',
+    sans-serif;
     background-color: black;
     color: white;
     text-align: center;
     margin-top: 100px;
     margin-bottom: 0px;
     padding: 15px 0px;
+}
+
+footer h1 {
+    font-family: 'Lobster Two',
+    cursive;
 }
 
 
