@@ -82,8 +82,12 @@ p {
     
 }
 
-.community-align {
-    margin: 0px 70px;
+.project-text {
+    margin-left: 200px;
+}
+
+.para-align {
+    text-align: justify;
 }
 
 
@@ -123,9 +127,12 @@ img {
     height: 500px;
 }
 
-#project {
-    margin-right: 30px;
-    float: right;
+#project-img {
+    width: 400px;
+    margin-top: 30px;
+    margin-left: 30px;
+
+    
 }
 
 .app-showcase img {
@@ -211,7 +218,6 @@ img {
     width: 100%;
     margin: 80px 0px;    
     padding-top: 30px;
-
 }
 
 /* Section alignment above this line*/
