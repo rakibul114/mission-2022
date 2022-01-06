@@ -58,6 +58,7 @@ div h3 {
     sans-serif;
     font-size: 50px;
     font-weight: 600;
+    margin-bottom: 0px;
 }
 
 /* Heading style above this line */
@@ -68,6 +69,7 @@ div h3 {
 
 p {
     font-size: 20px;
+    
 }
 
 .para-right {
@@ -84,9 +86,7 @@ p {
     margin: 0px 70px;
 }
 
-.app-div2 p {
-    padding-right: 50px;
-}
+
 /* Paragraph styles above this line */
 
 
@@ -129,10 +129,10 @@ img {
 }
 
 .app-showcase img {
-    width: 350px;
-    padding: 40px 40px;
-    margin-top: 60px;
-    margin-left: 90px;
+    width: 400px;
+    padding: 20px 20px;
+    margin-top: 70px;
+    margin-left: 200px;
     box-shadow: 5px 10px 18px #888888;
 }
 
@@ -179,8 +179,9 @@ img {
     width: 600px;
     height: 400px;
     margin-top: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     padding: 40px;
+    box-shadow: 5px 10px 18px #888888;
 
 }
 
