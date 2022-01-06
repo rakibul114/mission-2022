@@ -27,6 +27,8 @@ body {
     
 }
 
+/* All paragraph styles below this line */
+
 p {
     font-size: 20px;
 }
@@ -40,6 +42,13 @@ p {
     margin: 0px 200px;
     
 }
+
+.community-align {
+    margin: 0px 70px;
+}
+/* All paragraph styles above this line */
+
+
 
 /* All images styles here */
 
@@ -59,6 +68,11 @@ img {
     margin-right: 30px;
     margin-top: 0px;
 
+}
+
+#project {
+    margin-right: 30px;
+    float: right;
 }
 
 /* All images styles above */
@@ -97,20 +111,44 @@ div h3 {
 }
 
 #box-1 {
-    background-color: #f5bb51;
+    background-color:aliceblue;
 }
 
 #box-2 {
-    background-color: antiquewhite;
+    background-color:rgb(235, 218, 211);
 
 }
 
 #box-3 {
-    background-color: aquamarine;
+    background-color:rgb(248, 243, 216);
 
 }
 
-/* All span tags here */
+/* Illustrators icons below this line */
+.illustrator {
+    width: 100px;
+       
+}
+
+/* Illustrators icons above this line */
+
+
+/* All section alignment below this line*/
+
+.my-mission {
+    margin-bottom: 80px;
+}
+
+.coding {
+    margin-bottom: 80px;
+}
+
+
+/* All section alignment below this line*/
+
+
+
+/* All span tags below this line */
 .orange-heading {
     color: #f5bb51;
 }
@@ -119,41 +157,15 @@ div h3 {
     display: block;
 }
 
-/* All span tags above */
+/* All span tags above this line */
 
-/* Top section style starts here */
-
-
-/* Top section style ends here */
-
-
-/* My mission section style starts here */
-
-
-/* My mission section style ends here */
-
-
-/* Girls pic section style starts here */
-
-
-/* Girls pic section style ends here */
-
-
-/* Boys pic section style starts here */
-
-
-/* Boys pic section style ends here */
-
-
-/* App showcase section style starts here */
-
-
-/* App showcase section style ends here */
-
-
-/* Footer style starts here */
-
-
-/* Footer style ends here */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    padding: 15px 0px;
+}
 
 
