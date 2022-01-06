@@ -155,7 +155,7 @@ img {
     color: white;
     font-weight: 700;
     text-align: center;
-    background-color: #ff5100;
+    background-color: #FF5959;
     padding: 15px 25px;    
 
 }
@@ -235,8 +235,7 @@ img {
 
 /* Span tags below this line */
 .orange-heading {
-    color: #f5bb51;
-    
+    color: #FFAD5A;    
 }
 
 .block-heading {
@@ -260,6 +259,11 @@ footer {
 footer h1 {
     font-family: 'Lobster Two',
     cursive;
+}
+
+footer p {
+    font-family: 'Manrope',
+    sans-serif;
 }
 
 
