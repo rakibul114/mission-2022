@@ -4,6 +4,8 @@ body {
     sans-serif;
 }
 
+/* All flex design below this line */
+
 .flex-content {
     display: flex;
 }
@@ -16,6 +18,11 @@ body {
     width: 20%;    
 }
 
+/* All flex design above this line */
+
+
+
+/* Heading style below this line */
 
 .top-heading {
     font-family: 'Abril Fatface',
@@ -24,10 +31,32 @@ body {
     margin-top: 100px;
     padding-left: 10px;
     border-left: 5px solid #ff5100;
-    
+    border-radius: 5px;
+    line-height: 50px;    
 }
 
-/* All paragraph styles below this line */
+.center-heading {
+    font-size: 40px;
+    text-align: center;
+}
+
+.limit-heading {
+    font-size: 40px;
+
+}
+
+div h3 {
+    font-size: 20px;
+}
+
+.app-heading {
+    font-size:50px;
+}
+
+/* Heading style above this line */
+
+
+/* Paragraph styles below this line */
 
 p {
     font-size: 20px;
@@ -46,11 +75,15 @@ p {
 .community-align {
     margin: 0px 70px;
 }
-/* All paragraph styles above this line */
+
+.div-bg p {
+    padding-right: 50px;
+}
+/* Paragraph styles above this line */
 
 
 
-/* All images styles here */
+/* All images styles below this line */
 
 img {
     width: 450px;
@@ -75,7 +108,16 @@ img {
     float: right;
 }
 
-/* All images styles above */
+.app-showcase img {
+    width: 500px;
+    padding: 40px 40px;
+    margin-left: 50px;
+}
+
+/* All images styles above this line */
+
+
+/* Button style below this line */
 
 .btn-style {
     border: none;
@@ -87,21 +129,10 @@ img {
     padding: 15px 25px;    
 
 }
+/* Button style above this line */
 
-.center-heading {
-    font-size: 40px;
-    text-align: center;
-}
 
-.limit-heading {
-    font-size: 40px;
-
-}
-
-div h3 {
-    font-size: 20px;
-}
-
+/* All box style below this line */
 .box-sizing {
     width: 400px;
     height: 360px;
@@ -113,27 +144,26 @@ div h3 {
 #box-1 {
     background-color:aliceblue;
 }
-
 #box-2 {
     background-color:rgb(235, 218, 211);
-
 }
-
 #box-3 {
     background-color:rgb(248, 243, 216);
-
 }
+
+/* All box style below this line */
+
+
 
 /* Illustrators icons below this line */
 .illustrator {
-    width: 100px;
-       
+    width: 100px;       
 }
-
 /* Illustrators icons above this line */
 
 
-/* All section alignment below this line*/
+
+/* Section alignment below this line*/
 
 .my-mission {
     margin-bottom: 80px;
@@ -143,21 +173,35 @@ div h3 {
     margin-bottom: 80px;
 }
 
+.app-showcase {
+    background-color: #F0F8FF;
+    margin: 40px 40px
+}
 
-/* All section alignment below this line*/
+/* Section alignment above this line*/
+
+
+/* Div element style below this line */
+
+.app-showcase div-bg {
+    background-color: #F0F8FF;
+}
+/* Div element style above this line */
 
 
 
-/* All span tags below this line */
+/* Span tags below this line */
 .orange-heading {
     color: #f5bb51;
+    
 }
 
 #block-heading {
     display: block;
 }
 
-/* All span tags above this line */
+/* Span tags above this line */
+
 
 footer {
     background-color: black;
