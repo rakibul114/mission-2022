@@ -130,7 +130,11 @@ img {
     width: 400px;
     margin-top: 30px;
     float: right;
-    margin-right: 50px;
+    margin-right: 100px;
+}
+
+.shape-padd {
+    margin-left: 40px;
 }
 
 .app-showcase img {
@@ -171,8 +175,7 @@ img {
 }
 
 #box-1 {
-    background-color: #4f9da627;
-    
+    background-color: #4f9da627;    
 }
 #box-2 {
     background-color: #ff595921;
@@ -224,6 +227,14 @@ img {
 .coding {
     margin-bottom: 40px;
     margin-top: 50px;
+}
+
+#bg-img {
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 300px;
+    margin-left: 50px;
 }
 
 .app-showcase {
