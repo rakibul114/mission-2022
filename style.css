@@ -129,10 +129,10 @@ img {
 }
 
 .app-showcase img {
-    width: 400px;
+    width: 450px;
     padding: 20px 20px;
-    margin-top: 70px;
-    margin-left: 200px;
+    margin-top: 50px;
+    margin-left: 250px;
     box-shadow: 5px 10px 18px #888888;
 }
 
@@ -178,8 +178,7 @@ img {
     background-color: white;
     width: 600px;
     height: 400px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 50px 250px 60px 80px;
     padding: 40px;
     box-shadow: 5px 10px 18px #888888;
 
@@ -209,7 +208,10 @@ img {
 
 .app-showcase {
     background-color: #F0F8FF;
-    margin: 40px 40px
+    width: 100%;
+    margin: 80px 0px;    
+    padding-top: 30px;
+
 }
 
 /* Section alignment above this line*/
@@ -217,9 +219,7 @@ img {
 
 
 /* Div element style below this line */
-.app-showcase app-div1 {
 
-}
 
 
 
